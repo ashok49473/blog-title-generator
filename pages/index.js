@@ -48,7 +48,7 @@ const Home = () => {
 
       <div className="prompt-container">
         <textarea
-          placeholder="Enter your blog description here.."
+          placeholder="Describe your blog post in 10-15 words.."
           className="prompt-box"
           value={userInput}
           onChange={onUserChangedText}
